@@ -10,7 +10,7 @@ const SearchKeyword = ({ setSearch, searchItem }) => {
                         type="text"
                         required
                         id="inputSearch"
-                    placeholder="Search keyword..."
+                    placeholder="Search menu Items..."
                     value={searchItem}
                     onChange={(e)=>{setSearch(e.target.value)}}
                     />
