@@ -1,0 +1,89 @@
+
+  .aboutGrid-container{
+    display: flex;
+    background-color: transparent;
+    /* flex-flow:column; */
+    gap: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .aboutGrid-container{
+    margin: 0 40px;
+  }
+  
+  
+  
+  .barz,.peoples,.chef, .servers{
+    display: flex;
+     flex-wrap: wrap; 
+    flex-flow: row;
+    margin: 0 auto;
+    box-shadow: 0 0 5px black;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color:#111010;
+   padding: 5px;
+   color:#a7acab;
+
+  }
+
+ 
+    
+  .peoples >*{
+    flex-basis: 220px;
+    height: 270px;
+    object-fit: cover;
+    flex-grow: 1;
+  display: flex;
+  /* flex-wrap: wrap; */
+  }
+
+  .barz>*,.chef >*,.servers >*{
+    flex-basis: 220px;
+    height: 270px;
+    object-fit: cover;
+    flex-grow: 1;
+   
+  }
+  
+  .peoples{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    border: none;
+  }
+
+  .peoplehprizbar{
+    margin-top: 80px;
+  }
+  
+  
+  
+  .bar1,.server1{
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+
+  }
+  .chef1{
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+  }
+  .chef2,.bar1,.server2{
+    margin-right: 6px;
+  }
+  .peopl1{
+    border-top-left-radius:20px ;
+
+  }
+  .peopl3{
+    border-top-right-radius:20px ;
+
+  }
+  .span1{
+    font-weight: bolder;
+    font-size: 2rem;
+  }

@@ -1,0 +1,105 @@
+
+
+.contact-form{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+    margin: 0 auto;
+    flex-flow: column;
+    gap: 5px;
+}
+.headclient{
+    text-align: center;
+    /* margin: 40px 0 120px  0; */
+    width: 60%;
+    margin: 40px auto 120px auto;
+    color:#a7acab;
+}
+
+.contact-form >*{
+    display: flex;
+    flex-grow: 1;
+   flex-wrap: wrap;
+  background-color: rgb(240, 233, 233);
+  color:#171f1e;
+ 
+}
+
+.client_input{
+    height: 40px;
+    text-align: center;
+    font-size: 1rem;
+}
+.client_text{
+    height: 300px;
+    text-align: center;
+    font-size: 1rem;
+}
+.client_input,.client_text{
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    margin-bottom: 25px;
+}
+.btnSubmit{
+    height: 40px;
+    width: 100%;
+    margin: 8px auto;
+    cursor: pointer;
+    background-color:#a7acab;
+    color: rgb(20, 23, 23);
+   margin-top: -25px;
+   border-radius: 5px;
+}
+.btnSpan{
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-transform: uppercase;
+    
+}
+.btnSubmit:hover{
+    box-shadow: 0 0 5px rgb(206, 227, 10);
+    background-color: rgb(16, 32, 14);
+    color:rgb(240, 233, 233);
+}
+
+.btnSpan:hover{
+    font-size: 1rem; 
+    font-weight: lighter;
+}
+
+
+.labelclient{
+    box-shadow:inset;
+    font-weight: 400;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color:rgb(240, 233, 233); 
+}
+
+.contacthoz{
+    margin-top: 60px;
+}
+
+.mapgoogle{
+    margin: 20px auto;
+}
+
+.contact_footer{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;  
+}
+.contact_footer >*{
+    display: flex;
+    flex-flow: column;
+  margin: 0 auto;
+  color:#a7acab;
+}
+
+.headquarter p{
+    line-height:0.8;
+}

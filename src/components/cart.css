@@ -1,0 +1,78 @@
+
+#mycontainerCart{
+  border:2px solid #334533 ;
+    margin-top:20px;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .myShopCart{
+    display: flex;
+    /* margin-left:50px; */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .myCartPrice{
+    display:flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .insideCart{
+    display:flex;
+    justify-content: center;
+  }
+
+  .myImg{
+    object-fit: cover;
+  }
+
+  .myfigCart{
+    border-radius:5px ;
+    border:2px solid #334533 ;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 5px;
+    color:#cbcebb 
+
+    
+  }
+  .myImg:hover{
+    transform: translate(3px);
+    color: #cbcebb ;
+    font-weight: bolder;
+  }
+ 
+
+  .myfigCart:hover{
+    box-shadow:0 0 4px #cbcebb  ;
+  }
+  #mycontainerCart:hover{
+    box-shadow:0 0 4px #cbcebb  ;
+  }
+
+  .operand{
+    display: inline-block;
+    margin-left:20px;
+  }
+  .btn{
+    margin-left:10px;
+  }
+
+  .deletebtn{
+    background-color: rgb(221, 22, 22);
+    color: rgb(236, 225, 211);
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .deletebtn:hover{
+    transform: translate(3px);
+    color: #cbcebb;
+    box-shadow:0 0 4px #cbcebb ;
+  }
+  

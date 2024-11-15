@@ -1,0 +1,64 @@
+ .wrapperzeus{
+    margin: 0 auto;
+    width: 100%;
+    min-width:1200px;
+    /* flex-wrap: wrap;
+    display: flex; */
+ }   
+.sectionfood{
+    display: flex;
+    
+    /* background-image: linear-gradient(to right,rgba(233, 237, 234, 0.5),rgb(15, 31, 19)); */
+    flex-flow: row;
+    justify-content:space-around;
+    background-color: transparent;
+}
+
+.res{
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 400px;
+    height: auto;
+    color:#a7acab;
+   flex-wrap: wrap;
+
+}
+
+.zeusresume h2{
+    margin: 0;
+}
+
+.zeusresume p{
+    text-align: justify;
+    font-size: large;
+   
+}
+.zeushoriz {
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+    border: none;
+    border-top: 3px double  #778885;;
+    color: #778885;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+  }
+  
+  .zeushoriz::after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+  } 
+  
+
+
+#zeusimg{
+    width: 600px;
+    height:450px ;
+    box-shadow: 0 0 3px #080707;
+    border-radius: 10px;
+    
+}

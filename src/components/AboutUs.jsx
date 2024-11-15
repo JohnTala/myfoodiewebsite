@@ -1,0 +1,48 @@
+import resto13 from '../restos/resto13.jpg';
+import { FaCocktail } from "react-icons/fa";
+import * as Icon from 'react-bootstrap-icons';
+
+import './aboutus.css';
+
+const AboutUs = () => {
+    return (
+        <>
+            <section>
+                <div className='about-us'>
+                    <h1>About Us</h1>
+                    <div className='wrapper'>
+                        <div className='content'>
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Odit, libero dignissimos debitis, in aliquid architecto sed vero,
+                                excepturi explicabo laboriosam velit sapiente ea.
+                                Nemo voluptatibus nobis eveniet minima voluptates hic!
+                            </p>
+                            <div className='button'>
+                               <a href='/'>Read more</a>
+                            </div>
+                            <div className='social'>
+                                <a><Icon.Facebook  className='media_social'/></a>
+                                <a><Icon.TwitterX className='media_social' /></a>
+                                <a><Icon.Instagram  className='media_social'/></a>
+                            </div>
+                        </div>
+                        <div className='section-image'>
+                            <img src={resto13} style={{ width: 400, height: 400 }} />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* <hr className='peoplehprizbar'/>
+            <div className="footerdiv">
+        <div className="footzeus">
+        <h4> Zeus Restos</h4>
+        <p><FaCocktail /></p>
+        </div>
+          <p className="para"> &copy; All copyrights reserved</p>
+      </div> */}
+        </>
+    );
+}
+ 
+export default AboutUs;

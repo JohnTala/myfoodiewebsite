@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+.about-us{
+    width: 100%;
+}
+.about-us h1{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #a5a2a2;
+    letter-spacing: 1.5px;
+}
+
+.about-us h1::after{
+    content:'';
+    height: 5px;
+    width: 200px;
+    background-color: #a5a2a2;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+.wrapper{
+    padding:0px 60px;
+    margin:60px auto;
+}
+.content{
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+.content h3{
+    color: #5d5d5d;;
+    letter-spacing: 1px;
+}
+
+.content p{
+    color: #3d3d3d;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.content .button{
+    margin-top: 40px;
+}
+
+.content .button a{
+    color:#fff;
+    background-color:#2b9ec2 ;
+    border: 1px solid #2b9ec2;
+    padding:10px 35px ;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.content .button a:hover{
+    color:#2b9ec2;
+    background-color:#fff ;
+}
+
+.content .social{
+    margin-top: 30px;
+    margin-left:15px;
+}
+
+.content .social a{
+    text-decoration: none;
+    color:#222;
+    font-size: 25px;
+    padding: 0px 7px;
+}
+.content .social a:hover{
+    color: #2b9ec2;
+    transition: 1s ease;
+}
+
+.content .social .media_social{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #222;
+}
+.section-image{
+    width: 40%;
+    float: right;
+    padding:0px 30px ;
+}
+
+.section-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:900px) {
+    .about-us{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .about-us h1{
+        font-size: 32px;
+    }
+    .content{
+        float: none;
+        width: 100%;
+    }
+
+    .content .button{
+        margin-top:30px;
+        text-align: center;
+    }
+    .content .button a{
+        padding: 8px 25px;
+    }
+    .content .social{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .content .social .media_social{
+        font-size: 21px;
+    }
+    .section-image{
+        float: none;
+        width: 100%;
+        margin-top: 25px;
+    }
+}

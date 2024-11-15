@@ -1,0 +1,210 @@
+.navbar{
+    display:flex;
+    width: 100%;
+    flex-flow: row;
+    padding: 10px;
+    position: sticky;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: transparent;
+    position: relative;
+    height: 300px;
+}
+.mySideBar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 180px;
+  height: 100vh;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-flow: column;
+  box-shadow: -10px 0 10px #333;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top:2px;
+  backdrop-filter: blur(10px);
+}
+.mySideBar li{
+  width: 100%;
+}
+
+video{
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  opacity: 0.7;
+}
+
+.paraheader{
+
+  color:rgb(234, 233, 231);
+  margin:0 auto;
+  font-weight: 900;
+  font-size:xx-large;
+  word-spacing: 8px;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 4px #000000;
+
+
+}
+
+.paraspan{
+  color: rgb(202, 237, 95);
+  font-weight: bolder;
+}
+
+.headnav{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 4px solid  #d4e265e9;
+  text-align: center;
+  padding: 10px;
+  margin:0;
+  margin-top: 0;
+  display: flex;
+  margin-left: 20px;
+  padding: 0;
+  
+}
+
+.mymenu{
+  display: none;
+}
+.headnav >*{
+  display: flex;
+  
+}
+.headZeus{
+  text-align: center;
+}
+.coctailIcon{
+  position: relative;
+  margin-right:-13px;
+}
+.links{
+  display: flex;
+  margin:20px ;
+ 
+} 
+
+.links >*{
+  display: flex;
+  margin-left:20px;
+}
+
+.icons{
+ display: flex;
+ justify-content: center;
+ margin-right: 40px;
+ margin-top: 20px;
+ color:#a7acab;
+}
+
+.icons>*{
+  display: flex;
+  margin-left:20px;
+  padding: 5px;
+}
+
+.icons > *:hover{
+  color: #d4e265e9;
+  cursor:pointer;
+}
+
+
+li{
+list-style-type: none;
+margin-bottom: 60px;
+color:#a7acab;
+font-size: 1.1rem;
+
+}
+li a{
+  text-decoration: none;
+  color:#a7acab;
+}
+
+ 
+/* Another way of putting horizontal small bar under links */
+.navbar .links li a::after{
+  content: '';
+  width:0;
+  height: 2px;
+  background: #d4e265e9;
+ display: block;
+ transition: 0.3s linear;
+
+}
+
+.navbar .links li a:hover::after{
+  width: 70%;
+}
+.navbar .links li a:hover{
+  color:#d4e265e9;
+  background-color: transparent;
+  font-weight: 400;
+}
+
+@media screen and (max-width:768px) {
+  .headnav{
+    display:flex;
+  width: 70px;
+  height: 70px;
+  border: 4px solid  #d4e265e9;
+  text-align: center;
+  font:1rem;
+  
+  }
+  .links,.icons{
+    display:none;
+  }
+  
+  .mymenu{
+    display: block;
+    margin-right:30px;
+    margin-top: 5px;
+  }
+  .paraheader{
+  font-weight: 600;
+  font-size:large;
+  word-spacing: 4px;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 4px #000000;
+  position:absolute;
+  top: 60%;
+  margin-left: 25%;
+  
+  }
+
+  .video{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    opacity: 0.5;
+  }
+  .navbar{
+    height: 150px;
+    width: minmax(auto);
+    display:flex;
+    justify-content:space-between;
+
+
+  }
+  .headZeus{
+    font-size: smaller;
+    text-align: center;
+  }
+
+}
+

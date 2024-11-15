@@ -1,0 +1,154 @@
+
+
+.contact-form{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+    margin: 0 auto;
+    flex-flow: column;
+    gap: 5px;
+}
+.headclient{
+    text-align: center;
+    /* margin: 40px 0 120px  0; */
+    width: 60%;
+    margin: 40px auto 120px auto;
+    color:#a7acab;
+}
+
+.contact-form >*{
+    display: flex;
+    flex-grow: 1;
+   flex-wrap: wrap;
+  background-color: rgb(240, 233, 233);
+  color:#171f1e;
+ 
+}
+
+.client_input{
+    height: 40px;
+    text-align: center;
+    font-size: 1rem;
+}
+.client_text{
+    height: 300px;
+    text-align: center;
+    font-size: 1rem;
+}
+.client_input,.client_text{
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    margin-bottom: 25px;
+}
+.btnSubmit{
+    height: 40px;
+    width: 100%;
+    margin: 8px auto;
+    cursor: pointer;
+    background-color:#a7acab;
+    color: rgb(20, 23, 23);
+   margin-top: -25px;
+   border-radius: 5px;
+}
+.btnSpan{
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-transform: uppercase;
+    
+}
+.btnSubmit:hover{
+    box-shadow: 0 0 5px rgb(206, 227, 10);
+    background-color: rgb(16, 32, 14);
+    color:rgb(240, 233, 233);
+}
+
+.btnSpan:hover{
+    font-size: 1rem; 
+    font-weight: lighter;
+}
+
+
+.labelclient{
+    box-shadow:inset;
+    font-weight: 400;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color:rgb(240, 233, 233); 
+}
+
+.contacthoz{
+    margin-top: 60px;
+}
+
+.mapgoogle{
+    margin: 20px auto;
+}
+
+.contact_footer{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;  
+}
+.contact_footer >*{
+    display: flex;
+    flex-flow: column;
+  margin: 0 auto;
+  color:#a7acab;
+}
+
+.headquarter p{
+    line-height:0.8;
+}
+
+.userMsg{
+     width:400px;
+    position: absolute;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #333;
+    background-color:white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 60px auto;
+    color: black; 
+    text-align: center;
+    padding:40px 20px;
+    overflow: hidden;
+
+    
+    
+    /* position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px; */
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+  }
+  
+  .overlay {
+    /* background: rgba(49,49,49,0.8); */
+    backdrop-filter: blur(10px); 
+    background-color: rgba(255, 255, 255, 0.2); 
+  
+  }
+
+  

@@ -10,7 +10,13 @@
 
 # production
 /build
-
+# project's images folders
+/iconMenu
+/myPicFoods
+/peronzeus
+/restos
+/videos
+/zeuspeopl
 # misc
 .DS_Store
 .env.local
