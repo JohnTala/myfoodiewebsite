@@ -27,7 +27,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                         <div className='section-image'>
-                            <img src={resto13} style={{ width: 400, height: 400 }} />
+                            <img src={resto13} style={{ width: 400, height: 400,marginBottom:40}} />
                         </div>
                     </div>
                 </div>

@@ -25,6 +25,10 @@
 
 }
 
+.zeus img{
+        max-width: 100%;
+        height: auto;
+}
 .zeusresume h2{
     margin: 0;
 }

@@ -16,8 +16,10 @@ const SectionFood = () => {
                   facilis culpa dolorem modi voluptate autem asperiores odit veritatis maiores!</p>
               </div>
 
-             <div className="zeus">
-                <img src={resto10} alt="zeus picture" width={5439} height={3626} id="zeusimg"/>
+          <div className="zeus">
+          {/* width={5439} height={3626}  id="zeusimg"*/}
+            <img src={resto10} alt="zeus picture"  
+            style={{ width: 400, height: 400,marginBottom:40}}/>
              </div>
                
             </div>
