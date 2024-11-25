@@ -106,7 +106,12 @@ body{
     max-width: 100%;
     height: auto;
 }
-
+.myHoz{
+    display: flex;
+    flex-grow: 1; 
+    flex-flow:row;
+    margin: 10px auto;
+}
 @media screen and (max-width:900px) {
     .about-us{
         width: 100%;
@@ -140,4 +145,5 @@ body{
         width: 100%;
         margin-top: 25px;
     }
+    
 }

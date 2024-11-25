@@ -7,6 +7,8 @@ import Contact from "./components/Contact";
 import Reviews from "./components/Reviews";
 import Cart from "./components/Cart";
 import AboutUs from "./components/AboutUs";
+import FootCopy from "./components/FootCopy";
+
 
 
 function App() {
@@ -23,10 +25,8 @@ function App() {
           <Route path="/contact" element={<Contact />}/>
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/cart" element={<Cart />} />
-          
-
         </Routes>
-        
+        <FootCopy />
         </BrowserRouter>
     </div>
   );

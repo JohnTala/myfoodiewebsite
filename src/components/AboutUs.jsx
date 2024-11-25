@@ -1,5 +1,4 @@
 import resto13 from '../restos/resto13.jpg';
-import { FaCocktail } from "react-icons/fa";
 import * as Icon from 'react-bootstrap-icons';
 
 import './aboutus.css';
@@ -22,9 +21,9 @@ const AboutUs = () => {
                                <a href='/'>Read more</a>
                             </div>
                             <div className='social'>
-                                <a><Icon.Facebook  className='media_social'/></a>
-                                <a><Icon.TwitterX className='media_social' /></a>
-                                <a><Icon.Instagram  className='media_social'/></a>
+                                <a href='https://www.facebook.com'><Icon.Facebook  className='media_social'/></a>
+                                <a href='https://www.twitter.com'><Icon.TwitterX className='media_social' /></a>
+                                <a href='https://www.instagram.com'><Icon.Instagram  className='media_social'/></a>
                             </div>
                         </div>
                         <div className='section-image'>
@@ -33,14 +32,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </section>
-            {/* <hr className='peoplehprizbar'/>
-            <div className="footerdiv">
-        <div className="footzeus">
-        <h4> Zeus Restos</h4>
-        <p><FaCocktail /></p>
-        </div>
-          <p className="para"> &copy; All copyrights reserved</p>
-      </div> */}
+            
         </>
     );
 }

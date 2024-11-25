@@ -130,11 +130,14 @@ video{
 .headZeus{
   /* text-align: center; */
   text-shadow: 2px 2px 4px #d4e265e9;
+  color:#d2ea5f;
+
   /* margin: 0 auto; */
 }
 .coctailIcon{
   position: relative;
   margin-right:-13px;
+  color: #d4e265e9;
 }
 /* .links{
   display: flex;

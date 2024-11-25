@@ -1,7 +1,6 @@
 import "../components/footer.css";
 import { zeusChefs } from "./chefs";
 import { useState } from "react";
-import { FaCocktail } from "react-icons/fa";
 import { FaFacebook,FaInstagram,FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
@@ -10,7 +9,7 @@ const Footer = () => {
   return (
     <>
         
-        <h2>Team</h2>
+        <h2>Kitchen Staff</h2>
           <div className="team">
             
               {chefs.map((kictchen) => (
@@ -18,19 +17,14 @@ const Footer = () => {
                   <img src={kictchen.img} alt="picture here" id="myStaffpic" />
                       <h3 className="myparakit">{kictchen.name}</h3>
                   <p className="parakit">{kictchen.role}</p>
-                  <p className="myIcon"><FaFacebook className="fb"/>  <FaInstagram className="ins" />  <FaTwitter className="twitter"/></p>
+                  <p className="myIcon">
+                    <a href="http://www.facebook.com" className="fb"><FaFacebook /></a>
+                    <a href="http://www.instagram.com" className="ins"><FaInstagram /></a>
+                    <a href="http://www.twitter.com" className="twitter"><FaTwitter/></a>
+                  </p>
                 </div>
               ))}
          </div>
-      <hr className="myHoz"></hr>
-      
-      <div className="footerdiv">
-        <div className="footzeus">
-        <h4> Zeus Restos</h4>
-        <p><FaCocktail /></p>
-        </div>
-          <p className="para"> &copy; All copyrights reserved</p>
-      </div>
     </>
   );
 };

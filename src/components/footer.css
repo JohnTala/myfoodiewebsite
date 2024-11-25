@@ -3,8 +3,7 @@
 .team{
     display:grid;
    grid-template-columns:  1fr 1fr 1fr ;
-  
-
+  margin: 30px auto;
 }
 
 
@@ -91,6 +90,8 @@ h2{
 .para{
     text-align: center;
     color:#a7acab;
+    font-weight: 300;
+    font-size: small;
 }
 
 .footerdiv{
@@ -106,13 +107,15 @@ h2{
   }
  .footzeus h4{
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border: 2px solid  #d4e265e9;
     text-align: center;
     padding: 7px;
     margin:0;
     font-size: 10px;
+   text-shadow: 2px 2px 4px #d4e265e9;
+   color:#d2ea5f;
     
   } 
 
@@ -120,10 +123,12 @@ h2{
     position: relative;
     margin-left:-5px;
     margin-top: 5px;
+    color:#d4e265e9;
+    margin-right: 5px;
   }
 
  .myHoz {
-    margin-top: 60px;
+    margin-top: 90px;
     border: none;
     border-top: 3px double  #778885;;
     color:  #778885;
@@ -136,7 +141,9 @@ h2{
     background: #fff;
     content: '§§';
     padding: 0 4px;
+    margin: 0 auto;
     position: relative;
     top: -13px;
+    
   } 
   

@@ -1,5 +1,4 @@
 import { FaCartShopping } from "react-icons/fa6";
-import { FaCocktail } from "react-icons/fa";
 
 import './cart.css';
 import { foodLists } from "./foods";
@@ -83,16 +82,7 @@ const Cart = () => {
             )): <CartItemsPricing cart={cart} handleDelete={handleDelete} setShowCart={setShowCart} handleNumberItem={handleNumberItem} />
         }
             </div>
-            <hr className="myHoz"></hr>
-      
-      <div className="footerdiv">
-        <div className="footzeus">
-        <h4> Zeus Restos</h4>
-        <p><FaCocktail /></p>
-        </div>
-          <p className="para"> &copy; All copyrights reserved</p>
-      </div>
-           
+          
             </>);
 }
  

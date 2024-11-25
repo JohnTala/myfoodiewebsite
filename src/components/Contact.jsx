@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import { FaPhone } from "react-icons/fa";
-import { FaCocktail } from "react-icons/fa";
 import './contact.css';
-import GoogleMap from './GoogleMap';
 import { useNavigate } from 'react-router-dom';
 
 
@@ -147,16 +145,7 @@ const Contact = () => {
                 </div>
           
             </div>
-
-            <hr className="myHoz"></hr>
-      
-       <div className="footerdiv">
-         <div className="footzeus">
-         <h4> Zeus Restos</h4>
-         <p><FaCocktail /></p>
-        </div>
-          <p className="para"> &copy; All copyrights reserved</p>
-      </div>  )    
+       )    
         
       </>
         );
