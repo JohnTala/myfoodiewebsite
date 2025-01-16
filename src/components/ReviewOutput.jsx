@@ -1,6 +1,5 @@
 import * as Icon from 'react-bootstrap-icons';
 import './contact.css';
-import { useNavigate } from 'react-router-dom';
 
 
 const ReviewOutput = ({listReviews,handleDelete,setEditing,setReviews,noOfStar=5,modalReview,SetmodalReview}) => {
@@ -15,7 +14,6 @@ const ReviewOutput = ({listReviews,handleDelete,setEditing,setReviews,noOfStar=5
         localStorage.setItem('CustormReviews', JSON.stringify(editReview[0]));
         setEditing(true);
         SetmodalReview(false);
-        //document.querySelector('.modal').style.display = 'none';  
     }
 
     const handleResubmit = () => {
@@ -39,6 +37,8 @@ const ReviewOutput = ({listReviews,handleDelete,setEditing,setReviews,noOfStar=5
                     <button onClick={() => handleDelete(review.id)} >Delete</button>
                     <br></br>
                     <button onClick={() => handleEdit(review.id)}>Edit</button>
+                    <br></br>
+                
                     <button onClick={() => handleResubmit()}>Submit</button>
 
                 </div>

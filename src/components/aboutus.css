@@ -55,25 +55,27 @@ body{
 .content .button{
     margin-top: 40px;
 }
-
 .content .button a{
+    display: inline-block;
+    background-color: #d2ea5f;
     color:#fff;
-    background-color:#2b9ec2 ;
-    border: 1px solid #2b9ec2;
-    padding:10px 35px ;
-    letter-spacing: 1px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    border:none;
+    cursor: pointer;
+    transition: 0.4s ease;
     text-decoration: none;
-    font-size: 22px;
 }
 
 .content .button a:hover{
-    color:#2b9ec2;
-    background-color:#fff ;
+    background-color: #d2ea5f;
+    transform: scale(1.1);
 }
 
 .content .social{
-    margin-top: 30px;
-    margin-left:15px;
+    margin-top: 20px;
+     margin-left:-10px; 
 }
 
 .content .social a{
@@ -83,7 +85,7 @@ body{
     padding: 0px 7px;
 }
 .content .social a:hover{
-    color: #2b9ec2;
+     color:#d2ea5f;
     transition: 1s ease;
 }
 
@@ -93,7 +95,7 @@ body{
     border-radius: 50%;
     line-height: 40px;
     text-align: center;
-    background-color: #fff;
+    background-color:#a5a2a2;
     border: 1px solid #222;
 }
 .section-image{
@@ -112,7 +114,7 @@ body{
     flex-flow:row;
     margin: 10px auto;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:1000px) {
     .about-us{
         width: 100%;
         padding-top: 20px;
@@ -143,7 +145,7 @@ body{
     .section-image{
         float: none;
         width: 100%;
-        margin-top: 25px;
+        margin: 25px 10% ;
     }
     
 }

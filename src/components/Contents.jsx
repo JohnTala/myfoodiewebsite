@@ -6,7 +6,7 @@ import SectionFood from "./SectionFood";
 import Footer from "./Footer";
 
 const Contents = () => {
-  const [foodies, setStarters] = useState(foodLists);
+  const [foodies] = useState(foodLists);
   const [searchItem, setSearch] = useState("");
 
   const keys = ["description", "food"]; //the keys from the array foodlists

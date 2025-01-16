@@ -1,11 +1,10 @@
 
-
 .team{
-    display:grid;
-   grid-template-columns:  1fr 1fr 1fr ;
-  margin: 30px auto;
-}
-
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 110px 40px;
+} 
 
 #kitchenstaff{
   display: flex;
@@ -48,7 +47,7 @@
 
    #myStaffpic:hover{
     cursor: pointer;
-    box-shadow:0 0 8px #d2ea5f; 
+     box-shadow:0 0 8px #d2ea5f;  
     transform: translate(-4px,-4px);
    }
 
@@ -62,7 +61,7 @@
   
    .myIcon .ins:hover,.fb:hover,.twitter:hover {
     cursor: pointer;
-    box-shadow:0 0 8px #d2ea5f;
+     box-shadow:0 0 8px #d2ea5f;
    }
    .myIcon .ins,.fb,.twitter{
     margin-right:3px;
@@ -80,7 +79,7 @@
    }
 
 
-h2{
+h1{
     text-align: center;
     margin-bottom: 100px;
     color:#a7acab;
@@ -109,21 +108,20 @@ h2{
     border-radius: 50%;
     width: 45px;
     height: 45px;
-    border: 2px solid  #d4e265e9;
+   border: 2px solid  #d4e265e9; 
     text-align: center;
     padding: 7px;
     margin:0;
     font-size: 10px;
-   text-shadow: 2px 2px 4px #d4e265e9;
-   color:#d2ea5f;
-    
+    text-shadow: 2px 2px 4px #d4e265e9;
+    color:#d2ea5f; 
   } 
 
   .footzeus p{
     position: relative;
     margin-left:-5px;
     margin-top: 5px;
-    color:#d4e265e9;
+   color:#d4e265e9;
     margin-right: 5px;
   }
 
@@ -147,3 +145,50 @@ h2{
     
   } 
   
+  @media screen and (max-width: 768px){
+    .team{
+      width: 100%;
+      flex-direction:column;
+      gap:10px;
+      padding: 0px 40px;
+      margin:10px auto 50px auto;
+  }
+
+   #kitchenstaff{
+    display: flex;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow:0 0 4px #222121;
+   transition: 0.4s;
+   flex-wrap: wrap;
+   margin-top: 40px ;
+  } 
+
+  #myStaffpic{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow:0 0 4px #222121;
+    flex-wrap: wrap;
+   }
+
+   #kitchenstaff:hover #myStaffpic{
+    border-radius: 7px;
+    margin-top: -130px;
+}
+h1{
+  text-align: center;
+  margin-bottom: 50px;
+  color:#a7acab;
+}
+}

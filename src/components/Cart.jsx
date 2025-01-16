@@ -74,12 +74,16 @@ const Cart = () => {
                                     onClick={() => { handleAddCart(item) }} />
                                 <figcaption>{item.mealdesc}</figcaption>
                                 <figcaption>R {item.mealprice}</figcaption>
-                                {/* <button onClick={()=>{handleAddCart(item)}}>AddToCart</button> */}
                             </div>
                         )
                         )}
                 </div>
-            )): <CartItemsPricing cart={cart} handleDelete={handleDelete} setShowCart={setShowCart} handleNumberItem={handleNumberItem} />
+            )) : <CartItemsPricing
+                            cart={cart}
+                            handleDelete={handleDelete}
+                            setShowCart={setShowCart}
+                            handleNumberItem={handleNumberItem}
+                />
         }
             </div>
           

@@ -10,8 +10,8 @@
 
 # production
 /build
-# project's images folders
-*.jpg
+# # project's images folders
+# *.jpg
 # misc
 .DS_Store
 .env.local

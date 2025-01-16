@@ -14,7 +14,7 @@ const SearchKeyword = ({ setSearch, searchItem }) => {
                     value={searchItem}
                     onChange={(e)=>{setSearch(e.target.value)}}
                     />
-                  <Icon.Search className="iconSearch"/>
+                  <Icon.Search className="iconSearch"  />
             </form>
             </div>  
     );

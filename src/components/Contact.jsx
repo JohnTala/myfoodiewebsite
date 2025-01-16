@@ -10,16 +10,16 @@ const Contact = () => {
     const [modal, setModal] = useState(false);
     
 
-        const [newDetails,setNewDetails]=useState({ id:1,username:'', usersurname:'', useremail:'', usermessage:'' })
+    const [newDetails, setNewDetails] = useState({ id: 1, username: '', usersurname: '', useremail: '', usermessage: '' })
+    
+
     const handleSubmit = (e) => {
         e.preventDefault();
         let id = userDetails.length ? userDetails[userDetails.length - 1].id + 1 : 1;
-        // const myObj = { id, username, usersurname, useremail, usermessage };
         const myObj={...newDetails,id}
         const listDetails = [...userDetails, myObj];
         setDetails(listDetails);
         localStorage.setItem('UserDetails', JSON.stringify(listDetails));
-        // setNewDetails({ id: '', username: '', usersurname: '', useremail: '', usermessage: '' });
     }
 
     const handleChange = (e) => {
@@ -27,12 +27,6 @@ const Contact = () => {
         setNewDetails({ ...newDetails, [name]: value });
     }
 
-    // const handleDelete = (id) => {
-    //     const listDetails = Array.from(newDetails).filter((item) => item.id !== id);
-    //     setNewDetails(listDetails);
-    //     localStorage.setItem('UserDetails', JSON.stringify(listDetails));
-       
-    // }
 
     return (
        <>
@@ -107,8 +101,7 @@ const Contact = () => {
                         <p><strong>{newDetails.username} {newDetails.usersurname}</strong></p>
                         <p><em>{newDetails.useremail}</em></p>
                         <br></br>
-                        {/* <button className="close-modal">Back to form</button>
-                        <br></br> */}
+                        
                      <button
                   className="close-modal"
                   onClick={() => {
@@ -123,29 +116,35 @@ const Contact = () => {
              
              </div> 
           ) } 
-           ( <hr className='contacthoz' />
+           <hr className='contacthoz' />
 
             <div className='contact_footer'>
-            {/* <GoogleMap /> */}
+           
                 <div className="headquarter">
-                    <h3>South Africa</h3>
-                    <p>251 Marais st</p>
-                    <p>Claremont,Southern Suburb</p>
-                    <p>Western Cape 8001</p>
+                    <h3>CAPE TOWN</h3>
+                    <p>251 Marais street</p>
+                    <p>Claremont, Southern Suburb</p>
+                    <p>Western Cape - 8001</p>
                     <p><FaPhone /> : + 2721-678-0975</p>
                 </div>
                 <div className="headquarter">
-                    <h3>Worldwide</h3>
-                    <p><FaPhone /> : + 4412-678-0975</p>
+                    <h3>JOHANNESBURG</h3>
+                    <p>5th street,Mandela Square</p>
+                    <p>Sandown, Sandton</p>
+                    <p>Gauteng - 2000</p>
+                    <p><FaPhone /> : + 2711-217-6000</p>
                 </div>
                 
                 <div className="headquarter">
-                    <h3>Germany</h3>
-                    <p><FaPhone /> : + 4982-678-0975</p>
+                    <h3>DURBAN</h3>
+                    <p>15 Timeball boulevard</p>
+                    <p>Durban Point Waterfront</p>
+                    <p>Kwazulu Natal - 4001</p>
+                    <p><FaPhone /> : + 2731-337-3412</p>
                 </div>
           
             </div>
-       )    
+         
         
       </>
         );

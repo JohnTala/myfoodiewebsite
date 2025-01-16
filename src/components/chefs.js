@@ -2,9 +2,6 @@
 import pic1 from "../peronzeus/pic1.jpg";
 import pic3 from "../peronzeus/pic3.jpg";
 import pic2 from "../peronzeus/pic2.jpg";
-// import pic20 from "../personzeus/pic20.jpg";
-// import pic18 from "../personzeus/pic18.jpg";
-// import pic16 from "../personzeus/pic16.jpg";
 
 export const zeusChefs = [{
     id: 1,

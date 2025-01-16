@@ -1,36 +1,36 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from 'uuid'
 // import 'bootstrap/dist/css/bootstrap.css';
-import { useNavigate } from 'react-router-dom';
 
 import ReviewOutput from "./ReviewOutput";
 
 const Reviews = () => {
-    const navigate = useNavigate();
     const [inputReviews, setReviews] = useState({ username: '', review: '',rating:0, id:uuidv4()});
     const [listReviews, setListReviews] = useState([]);
     const [editing, setEditing] = useState(false);
     const [modalReview, SetmodalReview] = useState(false);
-    // console.log(inputReviews)
+
+    const saveAndSetFunct = (review) => {
+        localStorage.setItem('CustormReviews', JSON.stringify(review));
+    }
     
     //delete review
     const handleDelete = (id) => {
         const deleteReview = listReviews.filter((review) => review.id !== id);
         setListReviews(deleteReview);
-        console.log(deleteReview);
-       localStorage.setItem('CustormReviews',JSON.stringify(deleteReview))
-        setTimeout(()=>{window.location.replace('/reviews')},1000);
-    }    
+        saveAndSetFunct(deleteReview)
+    }  
+    
     //Update the review
     const handleUpdate = (e) => {
         e.preventDefault();
         const updateReviews = listReviews.map((update) => update.id === inputReviews.id ? inputReviews : update);
         setListReviews(updateReviews);
-        console.log(updateReviews)
-        localStorage.setItem('CustormReviews', JSON.stringify(updateReviews));
+        saveAndSetFunct(updateReviews)
         setEditing(false)
         setReviews({ username: '', review: '', rating: '', id: uuidv4() })
     }
+    
     const handleChange = (e) => {
         const { name, value } = e.target;
         setReviews({ ...inputReviews, [name]: value })
@@ -39,7 +39,8 @@ const Reviews = () => {
     
     const handleSubmit = (e) => {
         e.preventDefault();
-         setListReviews([...listReviews, inputReviews]);
+        setListReviews([...listReviews, inputReviews]);
+        saveAndSetFunct(listReviews)
         setReviews({ username: '', review: '', rating: '', id: uuidv4() });
     }
 
@@ -82,7 +83,7 @@ const Reviews = () => {
                 </button>
        
             </form>
-            <p>{inputReviews.review}</p>
+        
     <ReviewOutput listReviews={listReviews}
                     handleDelete={handleDelete}
                     setEditing={setEditing}
@@ -91,8 +92,6 @@ const Reviews = () => {
                 SetmodalReview={SetmodalReview}
                 
                 />
-    
-    
     
         </>
     );

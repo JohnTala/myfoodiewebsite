@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import resto13 from '../restos/resto13.jpg';
 import * as Icon from 'react-bootstrap-icons';
 
@@ -18,12 +19,13 @@ const AboutUs = () => {
                                 Nemo voluptatibus nobis eveniet minima voluptates hic!
                             </p>
                             <div className='button'>
-                               <a href='/'>Read more</a>
+                                <Link to='/'>Read more</Link>
+                                {/* <Link to='/abouts'>More on About...</Link> */}
                             </div>
                             <div className='social'>
-                                <a href='https://www.facebook.com'><Icon.Facebook  className='media_social'/></a>
-                                <a href='https://www.twitter.com'><Icon.TwitterX className='media_social' /></a>
-                                <a href='https://www.instagram.com'><Icon.Instagram  className='media_social'/></a>
+                                <Link to='https://www.facebook.com'><Icon.Facebook  className='media_social'/></Link>
+                                <Link to='https://www.twitter.com'><Icon.TwitterX className='media_social' /></Link>
+                                <Link to='https://www.instagram.com'><Icon.Instagram  className='media_social'/></Link>
                             </div>
                         </div>
                         <div className='section-image'>

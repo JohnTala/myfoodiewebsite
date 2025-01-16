@@ -2,7 +2,6 @@ import { BrowserRouter,Route,Routes } from "react-router-dom";
 
 import Contents from "./components/Contents";
 import NavBar from "./components/NavBar";
-import About from "./components/About";
 import Contact from "./components/Contact";
 import Reviews from "./components/Reviews";
 import Cart from "./components/Cart";
