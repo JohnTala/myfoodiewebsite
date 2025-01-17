@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/myfoodiewebsite/static/css/main.d7bf7543.css",
+    "main.js": "/myfoodiewebsite/static/js/main.98865d56.js",
+    "static/media/peoplvid.mp4": "/myfoodiewebsite/static/media/peoplvid.19f1e04b1ba9a4a64742.mp4",
+    "static/media/resto10.jpg": "/myfoodiewebsite/static/media/resto10.318619c7e82268a5b12e.jpg",
+    "static/media/image2.jpg": "/myfoodiewebsite/static/media/image2.3cab3cfa30c8c2ce809c.jpg",
+    "static/media/resto13.jpg": "/myfoodiewebsite/static/media/resto13.7cc8e78d9e91bfa75202.jpg",
+    "static/media/image1.jpg": "/myfoodiewebsite/static/media/image1.5132924290e155c4f193.jpg",
+    "static/media/dessert2.jpg": "/myfoodiewebsite/static/media/dessert2.3da38014e4403fb526b8.jpg",
+    "static/media/drink1.jpg": "/myfoodiewebsite/static/media/drink1.d97efbea182545a69999.jpg",
+    "static/media/image3.jpg": "/myfoodiewebsite/static/media/image3.e8629dc1cc6f10d49808.jpg",
+    "static/media/main4.jpg": "/myfoodiewebsite/static/media/main4.25c9cfd93759907021d2.jpg",
+    "static/media/dessert3.jpg": "/myfoodiewebsite/static/media/dessert3.e5a5de2471e88e1a5cf7.jpg",
+    "static/media/main3.jpg": "/myfoodiewebsite/static/media/main3.78fec29c56e42a99fdf2.jpg",
+    "static/media/pic3.jpg": "/myfoodiewebsite/static/media/pic3.0a7bbb168fb532518922.jpg",
+    "static/media/main1.jpg": "/myfoodiewebsite/static/media/main1.835ab289731e96515c93.jpg",
+    "static/media/dessert1.jpg": "/myfoodiewebsite/static/media/dessert1.bfa7cd6887304686d0ab.jpg",
+    "static/media/pic2.jpg": "/myfoodiewebsite/static/media/pic2.9b6f8bfdeee7856b0bdf.jpg",
+    "static/media/main2.jpg": "/myfoodiewebsite/static/media/main2.7e10805a998e3f0248c7.jpg",
+    "static/media/pic1.jpg": "/myfoodiewebsite/static/media/pic1.2fcb57727b2b3d018265.jpg",
+    "static/media/image4.jpg": "/myfoodiewebsite/static/media/image4.422453dfc70ab14463e8.jpg",
+    "static/media/drink2.jpg": "/myfoodiewebsite/static/media/drink2.544bde15a9b4ac518a73.jpg",
+    "static/media/drink4.jpg": "/myfoodiewebsite/static/media/drink4.945ca56957501e0c1072.jpg",
+    "static/media/drink3.jpg": "/myfoodiewebsite/static/media/drink3.322dd7d7036e31f784b1.jpg",
+    "static/media/dessert4.jpg": "/myfoodiewebsite/static/media/dessert4.7d1407e4437e4a65ee57.jpg",
+    "index.html": "/myfoodiewebsite/index.html",
+    "main.d7bf7543.css.map": "/myfoodiewebsite/static/css/main.d7bf7543.css.map",
+    "main.98865d56.js.map": "/myfoodiewebsite/static/js/main.98865d56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7bf7543.css",
+    "static/js/main.98865d56.js"
+  ]
+}
