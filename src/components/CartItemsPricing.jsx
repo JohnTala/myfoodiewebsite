@@ -25,7 +25,7 @@ const CartItemsPricing = ({ cart,handleDelete,handleNumberItem,setShowCart }) =>
     return (
         <div className="myCartPrice">
             {
-                //most important file
+              
             cart.map((item) => (
                 <div className="insideCart" key={item.id}>
 
