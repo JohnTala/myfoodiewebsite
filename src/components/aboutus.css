@@ -114,7 +114,7 @@ body{
     flex-flow:row;
     margin: 10px auto;
 }
-@media screen and (max-width:1000px) {
+@media only screen and (max-width:1000px) {
     .about-us{
         width: 100%;
         padding-top: 20px;
@@ -149,3 +149,9 @@ body{
     }
     
 }
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */

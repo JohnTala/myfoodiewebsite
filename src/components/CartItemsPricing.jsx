@@ -52,7 +52,7 @@ const CartItemsPricing = ({ cart,handleDelete,handleNumberItem,setShowCart }) =>
                 
                 <button className="btnpop" onClick={() => {
               setModal(!modal);
-            }}><h2>PLACE ORDER</h2></button> 
+            }}>PLACE ORDER</button> 
         
             </div>
             <>

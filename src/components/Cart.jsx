@@ -67,7 +67,7 @@ const Cart = () => {
         {
            showCart?
             foodLists.map((food) => (
-                <div className="starters" key={food.id}>
+                <div className="startes" key={food.id}>
                         {food.mymains.map((item) => (
                             <div key={item.id} id='mycontainerCart'>
                                 <img src={item.meal} width="70" height="150" id="myImg"

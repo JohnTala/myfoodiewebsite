@@ -55,3 +55,16 @@
     letter-spacing: 1.2px;
     color: #979595;
   }
+
+  @media only screen and (max-width: 1000px) {
+    .SearchForm{
+      /* width:100%; */
+       margin: 0 auto; 
+      padding: 2px;
+      border-radius: 10px;
+      background-color: #e7e7e5;
+     width: 200px;
+     height: 40px;
+     transition:box-shadow 0.45s;
+    }
+  }

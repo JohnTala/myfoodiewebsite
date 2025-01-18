@@ -4,7 +4,7 @@ import { useState } from "react";
 import { FaFacebook,FaInstagram,FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
-  const [chefs, setChefs] = useState(zeusChefs);
+  const [chefs] = useState(zeusChefs);
 
   return (
     <>
