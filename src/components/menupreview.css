@@ -1,27 +1,45 @@
 
- .items{
+  .items{
     display: flex;
-    flex-flow: row;
-    justify-content: center;
-    margin-top: 20px;
-    width: 60px;
-    height: auto;
+  flex-flow: row;
+  width:270px;
+  height:auto;
+  margin: 15px auto; 
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+}   
 
-} 
 
 .starters{
-    display: flex;
-    width: 60px;
-    height: auto;
-    color:#778885;
+    display:flex;
+    flex-flow:column;
+    gap:3px;
+    width:270px;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid #333;
     text-align: center;
-    padding: 16px 10px;
-    background-color:transparent;
-    box-shadow:0 0 4px #222121;
-    border-radius: 8px;
-    margin-right:15px
-    
+    flex-wrap: wrap;
 }
+
+#myImgi{
+    width:160px;
+    height:160px;
+    border-radius: 3px;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+    /* padding: 2px; */
+    padding: 0;
+   
+
+  }
+
+
+
 
 
 .order{
@@ -44,16 +62,7 @@
     margin: 20px auto;
 }
 
-  
 
-#myImgi{
-
-    height:auto;
-    border-radius: 3px;
-    object-fit: cover;
-    object-position: center;
-    transition: 0.3s;
-   }
   
    #myImgi:hover{
     cursor: pointer;
@@ -61,39 +70,51 @@
     transform: translate(-5px,-10px);
 }
 
-    @keyframes fadeInRight{
-        0%{
-            opacity: 0;
-            transform: translateX(-50px);
-        }
-        100%{
-            opacity: 1;
-            transform: translateX(0px);
-        }
-    }
-   @media only screen and (max-width:1300px){
+@media screen and (max-width: 768px){
     
     .items{
         display: flex;
-        width: 100%;
-        flex-direction:column;
-        gap:10px;
-        padding: 0px 40px;
+      width: 100%;
+      flex-direction:column;
+      gap:10px;
+      /* padding: 20px;
+      margin:0 auto ; */
+      justify-content: center;
+  align-items: center;
+  
+
     }
     .starters{
         display:flex;
         flex-flow: column;
         gap:3px;
-        width:40%;
+        width:200px;
         height:auto;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
+        flex-wrap: wrap;
+        border: 2px solid #333;
+        text-align: center;
+         /* margin:0 auto; */
     }
     
     #myImgi{
-        object-fit:cover;
-        width:100%;
-        height:auto;
+        width:195px;
+       height:180px;
+      border-radius: 3px;
+      object-fit: cover;
+      object-position: center;
       }
+}
+
+
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
