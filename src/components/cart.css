@@ -30,7 +30,16 @@
     width:100px;
     height: 100px;
   }
-
+    
+   #myImg{ width:160px;
+    height:160px;
+    border-radius: 3px;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+    padding: 0;
+}
+    
   .myfigCart{
     border-radius:5px ;
     border:2px solid #334533 ;
@@ -94,7 +103,7 @@
     position: fixed;
   }
 
-  .startes{
+  /* .startes{
     display:flex;
     flex-flow: row;
     gap:3px;
@@ -103,7 +112,21 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-  }
+  } */
+
+  
+.startes{  display:flex;
+    flex-flow:column;
+    gap:3px;
+    width:270px;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid #333;
+    text-align: center;
+    flex-wrap: wrap;}
+  
   
   .overlay {
     /* background: rgba(49,49,49,0.8); */
@@ -166,11 +189,11 @@
         color: #cbcebb;
       }
 
-      .myImg{
+       .myImg{
         object-fit: cover;
         width:80px;
         height: 80px;
-      }
+      } 
 
       .insideCart{
         display:flex;
@@ -207,7 +230,7 @@
         font-size: 12px;
         padding: 2px 0;
       }
-      .startes{
+      /* .startes{
         display:flex;
         flex-flow: row;
         gap:3px;
@@ -216,11 +239,32 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-      }
-
+      } */
+      
+      .startes{display:flex;
+        flex-flow: column;
+        gap:3px;
+        width:200px;
+        height:auto;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        border: 2px solid #333;
+        text-align: center;}
+     
+/* 
       #myImg{
         object-fit: cover;
         width:90px;
         height: 60px;
-      }
+      } */
+
+      
+      #myImg{ width:195px;
+       height:180px;
+      border-radius: 3px;
+      object-fit: cover;
+      object-position: center;}
+     
+
   }
