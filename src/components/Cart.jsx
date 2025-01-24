@@ -63,7 +63,7 @@ const Cart = () => {
             </div>
        
 
-        <div className="items">
+        <div className="itemss">
         {
            showCart?
             foodLists.map((food) => (

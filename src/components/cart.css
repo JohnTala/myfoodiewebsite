@@ -12,6 +12,16 @@
     align-items: center;
     cursor: pointer;
   }
+  .itemss{
+    display: flex;
+    flex-flow: row;
+    width:270px;
+    height:auto;
+    margin: 15px auto; 
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+  }
   
   .myCartPrice{
     display:flex;
