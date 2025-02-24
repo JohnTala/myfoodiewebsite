@@ -26,7 +26,7 @@
   flex-flow: row;
   width:270px;
   height:auto;
-  margin: auto; 
+  margin:auto; 
   gap:5px;
   justify-content: center;
   align-items: center;
@@ -142,11 +142,11 @@
     height:auto;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin:auto;
     border: 2px solid #333;
     text-align: center;
     flex-wrap: wrap;
-
+    /* margin-bottom: 3px; */
   }
   
   
@@ -282,6 +282,7 @@
         flex-wrap: wrap;
         border: 2px solid #333;
         text-align: center;
+        margin-bottom: 3px;
       }
      
 /* 
