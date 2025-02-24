@@ -55,7 +55,8 @@
     object-fit: cover;
     object-position: center;
     transition: 0.3s;
-    padding: 0;
+    padding:0 auto;
+
 }
     
   .myfigCart{
@@ -295,7 +296,10 @@
        height:180px;
       border-radius: 3px;
       object-fit: cover;
-      object-position: center;}
+      object-position: center;
+      padding:0 auto;
+
+    }
      
 
   }
