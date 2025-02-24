@@ -16,9 +16,9 @@
     display: flex;
     flex-flow: row;
     width:270px;
-    height:auto;
+    height:400px;
     margin: 15px auto; 
-    gap:10px;
+    gap:5px;
     justify-content: center;
     align-items: center;
   }
@@ -113,13 +113,23 @@
     position: fixed;
   }
 
+  /* .startes{
+    display:flex;
+    flex-flow: row;
+    gap:3px;
+    width:50%;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  } */
 
   
 .startes{  display:flex;
     flex-flow:column;
     gap:3px;
     width:270px;
-    height:auto;
+    height:300px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -189,7 +199,12 @@
         color: #cbcebb;
       }
 
-    
+       /* .myImg{
+        object-fit: cover;
+        width:80px;
+        height: 80px;
+      }  */
+
       .insideCart{
         display:flex;
         flex-grow: 1;
@@ -225,13 +240,24 @@
         font-size: 12px;
         padding: 2px 0;
       }
+      /* .startes{
+        display:flex;
+        flex-flow: row;
+        gap:3px;
+        width:30%;
+        height:auto;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      } */
       
-      
-      .itemss{
+      .items{
         display: flex;
       width: 100%;
       flex-direction:column;
       gap:10px;
+      /* padding: 20px;
+      margin:0 auto ; */
       justify-content: center;
      align-items: center;
   
@@ -240,33 +266,27 @@
       .startes{display:flex;
         flex-flow: column;
         gap:3px;
-        width:100%;
-        /* height:300px; */
+        width:200px;
+        height:300px;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         border: 2px solid #333;
         text-align: center;}
-    
-     /* .startes{display:flex;
-      flex-flow: column;
-      gap:3px;
-      width:200px;
-      height:auto;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      border: 2px solid #333;
-      text-align: center;} */
-      
-      .myImg{  width:160px;
-        height:160px;
-        border-radius: 3px;
+     
+/* 
+      #myImg{
         object-fit: cover;
-        object-position: center;
-        transition: 0.3s;
-        /* padding: 2px; */
-        padding: 0} 
+        width:90px;
+        height: 60px;
+      } */
+
+      
+      .myImg{ width:195px;
+       height:180px;
+      border-radius: 0px;
+      object-fit: cover;
+      object-position: center;} 
      
 
   }
