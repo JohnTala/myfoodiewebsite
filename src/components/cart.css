@@ -273,9 +273,9 @@
       }
       
       .startes{display:flex;
-        flex-flow: column;
+        flex-flow: row;
         gap:3px;
-        width:270px;
+        width:200px;
         height:auto;
         justify-content: center;
         align-items: center;
