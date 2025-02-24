@@ -200,10 +200,10 @@
     }
 
      #mycontainerCart{
-      border:2px solid #334533 ;
-        margin-top:20px;
+      /* border:2px solid #334533 ; */
+        /* margin-top:20px; */
         text-align: center;
-        padding-bottom:0;
+        /* padding-bottom:0; */
         width: 120px;
         height: 120px;
         font-size: 12px;
