@@ -230,13 +230,23 @@
         font-size: 12px;
         padding: 2px 0;
       }
+      /* .startes{
+        display:flex;
+        flex-flow: row;
+        gap:3px;
+        width:30%;
+        height:auto;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      } */
       
       
       .startes{display:flex;
         flex-flow: column;
-        gap:2px;
+        gap:3px;
         width:150px;
-        height:220px;
+        height:auto;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
@@ -244,8 +254,8 @@
         text-align: center;}
      
       
-      .myImg{ width:100px;
-       height:110px;
+      #myImg{ width:195px;
+       height:180px;
       border-radius: 3px;
       object-fit: cover;
       object-position: center;}
