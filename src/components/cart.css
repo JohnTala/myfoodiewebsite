@@ -1,9 +1,9 @@
 
 #mycontainerCart{
    border:2px solid #334533 ; 
-    margin:20px;
+    margin:0 auto;
     text-align: center;
-     padding:5px; 
+     /* padding:5px;  */
    
   }
   .myShopCart{
