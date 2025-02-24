@@ -191,7 +191,7 @@
     font-weight: bolder;
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     .myCartPrice{
       display:flex;
       flex-flow: row;
