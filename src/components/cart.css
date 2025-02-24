@@ -35,13 +35,13 @@
     justify-content: center;
   }
 
-  .myImg{
+  /* .myImg{
     object-fit: cover;
     width:100px;
     height: 100px;
   }
-    
-   #myImg{ width:160px;
+     */
+   .myImg{ width:160px;
     height:160px;
     border-radius: 3px;
     object-fit: cover;
@@ -199,11 +199,11 @@
         color: #cbcebb;
       }
 
-       .myImg{
+       /* .myImg{
         object-fit: cover;
         width:80px;
         height: 80px;
-      } 
+      }  */
 
       .insideCart{
         display:flex;
@@ -270,7 +270,7 @@
       } */
 
       
-      #myImg{ width:195px;
+      .myImg{ width:195px;
        height:180px;
       border-radius: 3px;
       object-fit: cover;
