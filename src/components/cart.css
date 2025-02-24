@@ -295,8 +295,8 @@
       } */
 
       
-      .myImg{ width:195px;
-       height:180px;
+      .myImg{ width:100px;
+       height:100px;
       border-radius: 3px;
       object-fit: cover;
       object-position: center;
