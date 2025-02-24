@@ -15,7 +15,7 @@
   .itemss{
     display: flex;
     flex-flow: row;
-    width:270px;
+    width:300px;
     height:auto;
     margin: 15px auto; 
     gap:10px;
@@ -129,7 +129,7 @@
     flex-flow:column;
     gap:3px;
     width:270px;
-    height:400px;
+    height:auto;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
