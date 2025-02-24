@@ -191,7 +191,7 @@
     font-weight: bolder;
   }
 
-  @media only screen and (max-width: 786px) {
+  @media only screen and (max-width: 600px) {
     .myCartPrice{
       display:flex;
       flex-flow: row;
@@ -268,3 +268,10 @@
      
 
   }
+
+  /* @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      color: white;
+    }
+  } */
