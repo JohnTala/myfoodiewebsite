@@ -23,7 +23,7 @@
     align-items: center;
   } */
  .itemss{ display: flex;
-  flex-flow: column;
+  flex-flow: row;
   width:270px;
   height:auto;
   margin: 15px auto; 
@@ -259,7 +259,7 @@
         margin: 0 auto;
       } */
        .itemss{ display: flex;
-        width: 100%;
+        width: 80%;
         flex-direction:column;
         gap:10px;
         /* padding: 20px;
