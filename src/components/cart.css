@@ -16,7 +16,7 @@
     display: flex;
     flex-flow: row;
     width:270px;
-    height:auto;
+    height:400px;
     margin: 15px auto; 
     gap:10px;
     justify-content: center;
