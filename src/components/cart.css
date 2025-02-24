@@ -264,7 +264,7 @@
         margin: 0 auto;
       } */
        .itemss{ display: flex;
-        /* width: 50%; */
+         width: 100%; 
         flex-direction:column;
         gap:5px;
         /* padding: 20px;
@@ -276,7 +276,7 @@
       .startes{display:flex;
         flex-flow: column;
         gap:5px;
-        width:200px;
+        width:50%;
         height:auto;
         justify-content: center;
         align-items: center;
