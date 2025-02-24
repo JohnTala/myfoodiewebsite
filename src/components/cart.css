@@ -1,7 +1,7 @@
 
 #mycontainerCart{
   border:2px solid #334533 ;
-    margin-top:20px;
+    margin-top:20px auto;
     text-align: center;
     padding-bottom: 5px;
   }
@@ -273,7 +273,7 @@
       }
       
       .startes{display:flex;
-        flex-flow: row;
+        flex-flow: column;
         gap:3px;
         width:200px;
         height:auto;
