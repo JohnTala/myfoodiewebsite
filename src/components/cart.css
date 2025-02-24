@@ -137,14 +137,14 @@
     flex-flow:column;
     gap:3px;
     width:270px;
-    height:400px;
+    height:auto;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     border: 2px solid #333;
     text-align: center;
     flex-wrap: wrap;
-  margin-bottom: 2px;}
+  padding: 2px;}
   
   
   .overlay {
@@ -272,13 +272,14 @@
         flex-flow: column;
         gap:3px;
         width:270px;
-        height:400px;
+        height:auto;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         border: 2px solid #333;
         text-align: center;
-        margin-bottom: 2px;
+        /* margin-bottom: 2px; */
+        padding-bottom: 2px;
       }
      
 /* 
