@@ -1,9 +1,9 @@
 
 #mycontainerCart{
-   /* border:2px solid #334533 ;  */
-    margin:5px auto;
+    border:2px solid #334533 ;  
+    margin:10px auto;
     text-align: center;
-     /* padding:5px;  */
+    padding:10px;  
    
   }
   .myShopCart{
@@ -143,7 +143,7 @@
     height:auto;
     justify-content: center;
     align-items: center;
-    margin:20px auto;
+    margin:10px auto;
     /* border: 2px solid #333; */
     text-align: center;
     flex-wrap: wrap;
@@ -283,7 +283,7 @@
         flex-wrap: wrap;
         /* border: 2px solid #333; */
         text-align: center;
-        margin:20px auto;
+        margin:10px auto;
 
       }
      
