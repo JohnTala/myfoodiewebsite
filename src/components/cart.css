@@ -264,7 +264,7 @@
         margin: 0 auto;
       } */
        .itemss{ display: flex;
-        width: 100%;
+        width: 50%;
         flex-direction:column;
         gap:5px;
         /* padding: 20px;
