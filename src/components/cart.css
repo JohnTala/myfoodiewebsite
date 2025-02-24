@@ -29,7 +29,10 @@
   margin: 15px auto; 
   gap:5px;
   justify-content: center;
-  align-items: center;}
+  align-items: center;
+  padding:5px auto;
+
+}
 
   .myCartPrice{
     display:flex;
@@ -269,7 +272,9 @@
         /* padding: 20px;
         margin:0 auto ; */
         justify-content: center;
-       align-items: center;}
+       align-items: center;
+       padding:5px auto;
+      }
       
       .startes{display:flex;
         flex-flow: column;
