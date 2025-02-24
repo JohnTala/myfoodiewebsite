@@ -143,8 +143,7 @@
     margin: 0 auto;
     border: 2px solid #333;
     text-align: center;
-    flex-wrap: wrap;
-  margin-bottom: 5px;}
+    flex-wrap: wrap;}
   
   
   .overlay {
@@ -260,7 +259,7 @@
         margin: 0 auto;
       } */
        .itemss{ display: flex;
-        width: 80%;
+        width: 100%;
         flex-direction:column;
         gap:10px;
         /* padding: 20px;
@@ -277,9 +276,7 @@
         align-items: center;
         flex-wrap: wrap;
         border: 2px solid #333;
-        text-align: center;
-        margin-bottom: 5px;
-      }
+        text-align: center;}
      
 /* 
       #myImg{
