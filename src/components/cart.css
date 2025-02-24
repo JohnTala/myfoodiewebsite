@@ -138,7 +138,7 @@
   
 .startes{  display:flex;
     flex-flow:column;
-    gap:3px;
+    gap:6px;
     width:270px;
     height:auto;
     justify-content: center;
@@ -276,7 +276,7 @@
       
       .startes{display:flex;
         flex-flow: column;
-        gap:3px;
+        gap:5px;
         width:200px;
         height:auto;
         justify-content: center;
