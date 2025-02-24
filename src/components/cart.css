@@ -14,7 +14,7 @@
   }
   .itemss{
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     width:270px;
     height:auto;
     margin: 15px auto; 
