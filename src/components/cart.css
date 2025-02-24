@@ -27,7 +27,7 @@
   flex-flow: row;
   width:270px;
   height:auto;
-  margin:auto; 
+  margin:10px auto; 
   gap:5px;
   justify-content: center;
   align-items: center;
@@ -295,8 +295,8 @@
       } */
 
       
-      .myImg{ width:100px;
-       height:100px;
+      .myImg{ width:185px;
+       height:180px;
       border-radius: 3px;
       object-fit: cover;
       object-position: center;
