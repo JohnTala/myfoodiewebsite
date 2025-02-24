@@ -18,8 +18,8 @@ import dessert4 from "../myPicFoods/desserts/dessert4.jpg";
 export const foodLists = [{
     id: 1,
     arr: [drink1],
-    mymains: [{id:1, meal: drink1, mealprice: 59.99, mealdesc: "Mocktails",amount: 1 },
-        { id:2,meal: drink2, mealprice: 76.99, mealdesc: "Citrus cocktails" ,amount: 1},
+    mymains: [{id:1, meal: drink1, mealprice: 59.99, mealdesc: "Mixed berries",amount: 1 },
+        { id:2,meal: drink2, mealprice: 76.99, mealdesc: "Citrus mixed" ,amount: 1},
         { id:3,meal: drink3, mealprice: 89.99, mealdesc: "Sunrise",amount: 1 },
         {id:4,meal:drink4,mealprice:105.99,mealdesc:"Paloma",amount: 1}
     ],
@@ -47,7 +47,7 @@ export const foodLists = [{
         mymains: [{id:9, meal: main1, mealprice: 489.99, mealdesc: "Tomahawk",amount: 1 },
             { id:10,meal: main2, mealprice: 376.99, mealdesc: "Grilled Salmon",amount: 1 },
             { id:11,meal: main3, mealprice: 255.99, mealdesc: "Grilled Squid",amount: 1 },
-            {id:12,meal:main4,mealprice:376.99,mealdesc:"Salmon in Creamy sauce",amount: 1}
+            {id:12,meal:main4,mealprice:376.99,mealdesc:"Salmon ragout",amount: 1}
         ],
         alt: "Image 3",
         food:'Mains',
