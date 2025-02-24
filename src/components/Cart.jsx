@@ -70,7 +70,7 @@ const Cart = () => {
                 <div className="startes" key={food.id}>
                         {food.mymains.map((item) => (
                             <div key={item.id} id='mycontainerCart'>
-                                <img src={item.meal} width="70" height="150" className="myImg"
+                                <img src={item.meal} className="myImg"
                                     onClick={() => { handleAddCart(item) }} />
                                 <figcaption>{item.mealdesc}</figcaption>
                                 <figcaption>R {item.mealprice}</figcaption>
