@@ -13,7 +13,7 @@ import FootCopy from "./components/FootCopy";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/myfoodiewebsite">
       <header className="App-header">
           <NavBar />
           <hr></hr>
