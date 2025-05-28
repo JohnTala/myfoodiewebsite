@@ -1,10 +1,4 @@
-.main{
-  display:grid;
-  grid-template-columns: repeat(2,1fr);
-  /* background-color: aliceblue; */
-  margin: 0;
- 
-}
+/* 
 
 
 .main .SearchForm{
@@ -58,7 +52,7 @@
 
   @media only screen and (max-width: 1000px) {
     .SearchForm{
-      /* width:100%; */
+      
        margin: 0 auto; 
       padding: 2px;
       border-radius: 10px;
@@ -67,4 +61,71 @@
      height: 40px;
      transition:box-shadow 0.45s;
     }
+  } */ 
+
+  .main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+  background-color: #f9fafb; /* Light background to match theme */
+}
+
+/* Search Form Container */
+.main .SearchForm {
+  grid-column: 1 / span 2;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 4px;
+  width: 400px;
+  height: 42px;
+  margin: 20px auto;
+  transition: box-shadow 0.4s ease;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.SearchForm:focus-within {
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2); /* subtle blue focus ring */
+}
+
+/* Input Field */
+#inputSearch {
+  grid-column: 2 / span 4;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0 12px;
+  font-size: 1rem;
+  color: #1f2937; /* dark slate text */
+}
+
+#inputSearch::placeholder {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #9ca3af; /* gray placeholder */
+}
+
+/* Search Icon */
+.iconSearch {
+  grid-column: 6;
+  justify-self: end;
+  align-self: center;
+  margin-right: 12px;
+  color: #6b7280; /* medium gray */
+  font-size: 1.2rem;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1000px) {
+  .SearchForm {
+    width: 90%;
+    border-radius: 16px;
+    height: 40px;
   }
+
+  #inputSearch {
+    font-size: 0.95rem;
+  }
+}

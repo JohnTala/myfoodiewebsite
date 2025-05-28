@@ -1,4 +1,4 @@
-
+/* 
 
 
 
@@ -13,25 +13,25 @@
   scroll-behavior: smooth;
 } */
 
-body {
+/* body {
   
   min-height: 100vh;
   max-width: 100vw;
-  background-image: linear-gradient(to right,rgb(15, 31, 19),rgb(77, 99, 88));
+  background-image: linear-gradient(to right,rgb(15, 31, 19),rgb(77, 99, 88)); */
 
   /* background: url(/src/myPicFoods/desserts/monika-grabkowska-P1aohbiT-EY-unsplash.jpg); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
   color:#a5a2a2;
   position: relative;
-}
+} */
 
 
-hr {
+/* hr { */
   /* margin-top: 60px; */
-  border: none;
+  /* border: none;
   width: 80%;
   margin:20px auto;
   border-top: 3px double  #778885;;
@@ -39,22 +39,85 @@ hr {
   overflow: visible;
   text-align: center;
   height: 10px;
-}
+} */
 
-hr::after {
+/* hr::after {
   background: #fff;
   content: '§§';
   padding: 0 4px;
   position: relative;
   top: -13px;
-} 
+}  */
 
 
-.myImoji{
+/* .myImoji{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-flow:column;
+} */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100vw;
+  background: linear-gradient(to right, #0f1f13, #3a5a3e);
+  color: #d2ea5f;
+  font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  overflow-x: hidden;
+  transition: background 0.3s ease;
+}
+
+/* Optional smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Themed horizontal rule */
+hr {
+  border: none;
+  width: 80%;
+  margin: 30px auto;
+  border-top: 3px double #d2ea5f;
+  text-align: center;
+  position: relative;
+  height: 12px;
+}
+
+hr::after {
+  content: '§§';
+  padding: 0 6px;
+  background: #0f1f13;
+  color: #d2ea5f;
+  font-weight: bold;
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Emoji or icon section styling */
+.myImoji {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 10px rgba(210, 234, 95, 0.1);
+  transition: all 0.3s ease;
 }
 

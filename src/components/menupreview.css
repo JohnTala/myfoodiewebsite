@@ -1,4 +1,4 @@
-
+/* 
   .items{
     display: flex;
   flex-flow: row;
@@ -33,14 +33,14 @@
     object-position: center;
     transition: 0.3s;
     /* padding: 2px; */
-    padding: 0;
+    /* padding: 0;
    
   }
 
 
-.order{
+.order{ */
     /* font-size: 38px; */
-    margin: 20px auto;
+    /* margin: 20px auto;
     color:#333;
     cursor: pointer;
     display: inline-block;
@@ -75,7 +75,7 @@
       gap:10px;
       /* padding: 20px;
       margin:0 auto ; */
-      justify-content: center;
+      /* justify-content: center;
      align-items: center;
   
 
@@ -92,19 +92,19 @@
         border: 2px solid #333;
         text-align: center;
          /* margin:0 auto; */
-    }
+    /* } */
     
-    #myImgi{
+    /* #myImgi{
         width:195px;
        height:180px;
       border-radius: 3px;
       object-fit: cover;
       object-position: center;
       }
-}
+} */
 
 
-@keyframes fadeInRight{
+/* @keyframes fadeInRight{
     0%{
         opacity: 0;
         transform: translateX(-50px);
@@ -113,4 +113,99 @@
         opacity: 1;
         transform: translateX(0px);
     }
+} */ 
+
+.items {
+  display: flex;
+  flex-direction: row;
+  width: 270px;
+  margin: 15px auto;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.starters {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 270px;
+  padding: 16px;
+  background-color: #ffffff;
+  border: 2px solid #e5e7eb; /* light gray border */
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+#myImgi {
+  width: 160px;
+  height: 160px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#myImgi:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(163, 230, 53, 0.6); /* lime glow */
+  transform: translate(-4px, -8px);
+}
+
+/* Order button/text */
+.order {
+  margin: 20px auto;
+  color: #1f2937; /* dark slate */
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  background-color: #f3f4f6; /* light gray */
+}
+
+.order:hover {
+  color: #ecfccb; /* pale lime text */
+  background-color: #4d5237;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px #d9f99d; /* greenyellow tint */
+  animation: fadeInRight 0.6s ease;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .items {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .starters {
+    width: 200px;
+    padding: 12px;
+  }
+
+  #myImgi {
+    width: 195px;
+    height: 180px;
+  }
+}
+
+/* Animation */
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

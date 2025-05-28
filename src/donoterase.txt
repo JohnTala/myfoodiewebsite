@@ -1,0 +1,107 @@
+
+import './contact.css';
+import { useState } from 'react';
+
+export default function Contact() {
+   
+    const [userDetails, setDetails] = useState(JSON.parse(localStorage.getItem('UserDetails')) || []);
+    const [modal, setModal] = useState(false);
+    const [newDetails, setNewDetails] = useState({ id: 1, username: '', usersurname: '', useremail: '', usermessage: '' })
+  
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setNewDetails({ ...newDetails, [name]: value });
+    }
+  
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        let id = userDetails.length ? userDetails[userDetails.length - 1].id + 1 : 1;
+        const myObj = { ...newDetails, id }
+        const listDetails = [...userDetails, myObj];
+        setDetails(listDetails);
+        localStorage.setItem('UserDetails', JSON.stringify(listDetails));
+    }
+    return (
+        <section id="contact" className="py-20 px-8 bg-gray-100">
+            <div className="max-w-4xl mx-auto">
+                <h3 className="text-3xl font-bold mb-6">Contact</h3>
+                <form className="space-y-4" onSubmit={handleSubmit}>
+                    <input type="text"
+                        placeholder="Your Name"
+                        className="w-full p-2 border rounded"
+                        name='username'
+                        onChange={handleChange}
+                        required
+                    />
+                    <input type="email"
+                        placeholder="Your Email"
+                        className="w-full p-2 border rounded"
+                        name='useremail'
+                        onChange={handleChange}
+                        required />
+                    <textarea placeholder="Your Message"
+                        className="w-full p-2 border 
+                      name='usermessage'
+                      rounded" rows="5"
+                        onChange={handleChange}
+                        required
+                    ></textarea>
+                    <button type="submit"
+                        onClick={
+                            () => {
+                                setModal(!modal);
+                                setTimeout(() => { window.location.replace('/contact') }, 5000);
+
+                            }
+                        }
+                        className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Send</button>
+                </form>
+            </div>
+          
+            {modal && (
+                <div className='modal'>
+                    <div className='overlay' onClick={() => setModal(!modal)} ></div>
+                    <div className='userMsg'>
+                        <div>{newDetails.usermessage}</div>
+                        <br></br>
+                        <p><strong>{newDetails.username} {newDetails.usersurname}</strong></p>
+                        <p><em>{newDetails.useremail}</em></p>
+                        <br></br>
+                        
+                        <button
+                            className="close-modal"
+                            onClick={() => {
+                                //   
+                                setModal(!modal)
+                      
+                            }}>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg>
+
+                        </button>
+                    </div>
+             
+                </div>)
+                 
+                        };
+
+        </section>)
+      
+
+}
+    
+// .modal, .overlay {
+//     width: 100vw;
+//     height: 100vh;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     position: fixed;
+//   }
+  
+//   .overlay {
+//     /* background: rgba(49,49,49,0.8); */
+//     backdrop-filter: blur(10px); 
+//     background-color: rgba(255, 255, 255, 0.2); 
+  
+//   }

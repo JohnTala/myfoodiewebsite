@@ -1,4 +1,4 @@
-
+/* 
 #mycontainerCart{
     border:2px solid #334533 ;  
     margin:10px auto;
@@ -9,10 +9,10 @@
   .myShopCart{
     display: flex;
     /* margin-left:50px; */
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
     cursor: pointer;
-  }
+  } */
   /* .itemss{
     display: flex;
     flex-flow: column;
@@ -23,7 +23,7 @@
     justify-content: center;
     align-items: center;
   } */
- .itemss{ display: flex;
+ /* .itemss{ display: flex;
   flex-flow: row;
   width:270px;
   height:auto;
@@ -32,19 +32,19 @@
   justify-content: center;
   align-items: center;
 
-}
+} */
 
-  .myCartPrice{
+  /* .myCartPrice{
     display:flex;
     flex-flow: column;
     flex-wrap: wrap;
     gap: 30px;
-  }
+  } */
 
-  .insideCart{
+  /* .insideCart{
     display:flex;
     justify-content: center;
-  }
+  } */
 
   /* .myImg{
     object-fit: cover;
@@ -52,30 +52,30 @@
     height: 100px;
   }
      */
-   .myImg{ width:160px;
+   /* .myImg{ width:160px;
     height:160px;
     border-radius: 3px;
     object-fit: cover;
     object-position: center;
     transition: 0.3s;
 
-}
+} */
     
-  .myfigCart{
+  /* .myfigCart{
     border-radius:5px ;
     border:2px solid #334533 ;
     text-align: center;
     overflow: hidden;
     padding-bottom: 5px;
     color:#cbcebb 
-  }
-  .myImg:hover{
+  } */
+  /* .myImg:hover{
     transform: translate(3px);
     color: #cbcebb ;
     font-weight: bolder;
-  }
+  } */
   
-  .btn{
+  /* .btn{
     width:20px;
     height: 15px;
     padding: 3px auto;
@@ -87,17 +87,17 @@
   }
   #mycontainerCart:hover{
     box-shadow:0 0 4px #cbcebb  ;
-  }
+  } */
 
-  .operand{
+  /* .operand{
     display: inline-block;
     margin-left:20px;
   }
   .btn{
     margin-left:10px;
-  }
+  } */
 
-  .deletebtn{
+  /* .deletebtn{
     background-color: rgb(221, 22, 22);
     color: rgb(236, 225, 211);
     width: 80px;
@@ -105,15 +105,15 @@
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
-  }
+  } */
 
-  .deletebtn:hover{
+  /* .deletebtn:hover{
     transform: translate(3px);
     color: #cbcebb;
     box-shadow:0 0 4px #cbcebb ;
-  }
+  } */
   
-  /* Display the grand total as a popup modal */
+  /* Display the grand total as a popup modal
   .modal, .overlay {
     width: 100vw;
     height: 100vh;
@@ -122,7 +122,7 @@
     right: 0;
     bottom: 0;
     position: fixed;
-  }
+  } */
 
   /* .startes{
     display:flex;
@@ -136,7 +136,7 @@
   } */
 
   
-.startes{  display:flex;
+/* .startes{  display:flex;
     flex-flow:column;
     gap:6px;
     width:270px;
@@ -145,18 +145,18 @@
     align-items: center;
     margin:10px auto;
     /* border: 2px solid #333; */
-    text-align: center;
+    /* text-align: center;
     flex-wrap: wrap;
-  }
+  } */
+   
   
-  
-  .overlay {
+  /* .overlay {
     /* background: rgba(49,49,49,0.8); */
-    backdrop-filter: blur(10px); 
+    /* backdrop-filter: blur(10px); 
     background-color: rgba(255, 255, 255, 0.2); 
   
-  }
-  .modal-content {
+  } */ 
+  /* .modal-content {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -167,11 +167,11 @@
     border-radius: 5px;
     max-width: 600px;
     min-width: 300px;
-    color:rgb(158, 198, 101)
+    color:rgb(158, 198, 101) */
 
-  }
+  /* } */
   
-  .close-modal {
+  /* .close-modal {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -182,25 +182,25 @@
     background: transparent;
     color:#337d33;
     border-radius: 5px;
-    margin: 0 auto;
-    cursor: pointer;
+    margin: 0 auto; */
+    /* cursor: pointer;
   }
   .btnpop:hover{
     transform: translate(3px);
     color: #cbcebb ;
     font-weight: bolder;
-  }
+  } */
 
-  @media only screen and (max-width: 600px) {
+  /* @media only screen and (max-width: 600px) {
     .myCartPrice{
       display:flex;
       flex-flow: row;
       flex-wrap: wrap;
       gap: 20px;
-    }
+    } */
 
 
-      .insideCart{
+      /* .insideCart{
         display:flex;
         flex-grow: 1;
       }
@@ -209,8 +209,8 @@
         padding: 3px 0;
         background:#102a10;
         color:#cbcebb;
-        border-radius: 4px;
-        margin: auto 15px;
+        border-radius: 4px; */
+        /* margin: auto 15px;
         cursor: pointer;
         width: 100px;
         height: 30px;
@@ -222,9 +222,9 @@
         transform: translate(5px);
         color: #cbcebb ;
         font-weight: bolder;
-      }
+      } */
 
-      .deletebtn{
+      /* .deletebtn{
         background-color: rgb(221, 22, 22);
         color: rgb(236, 225, 211);
         width: 80px;
@@ -234,26 +234,26 @@
         cursor: pointer;
         font-size: 12px;
         padding: 2px 0;
-      }
+      } */
      
-       .itemss{ display: flex;
+       /* .itemss{ display: flex;
          width: 100%; 
         flex-direction:column;
         gap:5px;
         justify-content: center;
        align-items: center;
       }
-      
-       .startes{display:flex;
+       */
+       /* .startes{display:flex;
         flex-flow: column;
         gap:5px;
         width:270px;
         height:auto;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
+        flex-wrap: wrap; */
         /* border: 2px solid #333; */
-        text-align: center;
+        /* text-align: center;
         margin:10px auto;
 
       }
@@ -264,14 +264,234 @@
       object-fit: cover;
       object-position: center;
 
-    }
+    } */
      
-
-  }
+/* 
+  } */
 
   /* @media screen and (max-width: 600px) {
     body {
       background-color: olive;
       color: white;
     }
-  } */
+  } */ 
+   #mycontainerCart {
+  border: 2px solid #d2ea5f;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 10px rgba(210, 234, 95, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+#mycontainerCart:hover {
+  box-shadow: 0 0 12px #d2ea5f;
+}
+
+.myShopCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.itemss {
+  display: flex;
+  flex-direction: row;
+  width: 270px;
+  margin: 10px auto;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.startes {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 270px;
+  margin: 10px auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.myCartPrice {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.insideCart {
+  display: flex;
+  justify-content: center;
+}
+
+.myImg {
+  width: 160px;
+  height: 160px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.myImg:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 8px #d2ea5f;
+}
+
+.myfigCart {
+  border-radius: 10px;
+  border: 2px solid #d2ea5f;
+  text-align: center;
+  padding-bottom: 5px;
+  color: #d2ea5f;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 6px rgba(210, 234, 95, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.myfigCart:hover {
+  box-shadow: 0 0 10px #d2ea5f;
+}
+
+.operand {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.btn {
+  margin-left: 10px;
+  width: 25px;
+  height: 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #d2ea5f;
+  color: #111;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.btn:hover {
+  transform: scale(1.1);
+  background-color: #b4cd4e;
+}
+
+.deletebtn {
+  background-color: #cc1c1c;
+  color: #f5f5f5;
+  width: 90px;
+  height: 35px;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.deletebtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 6px #d2ea5f;
+  color: #d2ea5f;
+  background-color: #a11212;
+}
+
+/* Modal Styling */
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #141f14;
+  padding: 20px 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  min-width: 300px;
+  color: #d2ea5f;
+  box-shadow: 0 0 12px rgba(210, 234, 95, 0.3);
+  text-align: center;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.btnpop {
+  padding: 10px 20px;
+  background: transparent;
+  color: #d2ea5f;
+  border: 1px solid #d2ea5f;
+  border-radius: 6px;
+  margin: 20px auto 0 auto;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.btnpop:hover {
+  transform: translateY(-2px);
+  background-color: #171f17;
+  font-weight: bold;
+  box-shadow: 0 0 6px #d2ea5f;
+  color: #f0f0f0;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  .myCartPrice {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .insideCart {
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  .btnpop {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    padding: 4px 0;
+  }
+
+  .deletebtn {
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+
+  .itemss {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .startes {
+    width: 90%;
+  }
+
+  .myImg {
+    width: 185px;
+    height: 180px;
+  }
+}
